@@ -1,0 +1,41 @@
+
+# 🍄 Mushroom Traceability - .gitignore
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore build artifacts
+build/
+dist/
+*.spec
+
+# Ignore user settings
+.settings/
+.idea/
+.vscode/
+
+# Ignore environment files
+.env
+
+# Ignore backup folders
+backups/
+
+# Ignore output files
+*.xlsx
+*.csv
+*.pdf
+*.docx
+logs.json
+traceability_logs.txt
+
+# Ignore platform-specific files
+.DS_Store
+Thumbs.db
